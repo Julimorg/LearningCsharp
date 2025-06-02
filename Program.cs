@@ -12,6 +12,8 @@ using Learning.OOP.People;
 using Learning.OOP.Circle;
 using Learning.OOP.School;
 using Learning.OOP.Dependency.Printer;
+using LearningCsharp.OOP.Dependency.MyCompany;
+using LearningCsharp.OOP.Dependency.MyBook;
 
 
 
@@ -250,5 +252,17 @@ class HelloWorld
         Printer printer = new Printer("HP Laser");
         EmployeePrinter employeePrint = new EmployeePrinter("An");
         employeePrint.PrintDocument(printer);
+
+        MyManager myManager = new MyManager("Bình");
+        MyEmployee myEmployee = new MyEmployee("An", myManager);
+        Console.WriteLine($"{myEmployee.getName()} làm việc dưới {myEmployee.getManagerName()}.");
+
+        MyAuthor[] authors = new MyAuthor[3];
+		authors[0] = new Author("Viet", "VietCV@codelearn.io");
+		authors[1] = new Author("Tuan", "TuanLQ@codelearn.io");
+		authors[2] = new Author("Kien", "KienNT@Codelearn.io");
+		
+		MyBook book1 = new MyBook("C++ for Beginners", authors, 210000);
+		Console.WriteLine(book1.getAuthorNames());
     }
 }

@@ -12,3 +12,18 @@ F:\Programming\File programming\Learning C#\Learning\obj\Debug\net9.0\refint\Lea
 F:\Programming\File programming\Learning C#\Learning\obj\Debug\net9.0\Learning.pdb
 F:\Programming\File programming\Learning C#\Learning\obj\Debug\net9.0\Learning.genruntimeconfig.cache
 F:\Programming\File programming\Learning C#\Learning\obj\Debug\net9.0\ref\Learning.dll
+D:\Programming\CSharp\LearningCsharp\obj\Debug\net9.0\Learning.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\CSharp\LearningCsharp\obj\Debug\net9.0\Learning.AssemblyInfoInputs.cache
+D:\Programming\CSharp\LearningCsharp\obj\Debug\net9.0\Learning.AssemblyInfo.cs
+D:\Programming\CSharp\LearningCsharp\obj\Debug\net9.0\Learning.csproj.CoreCompileInputs.cache
+D:\Programming\CSharp\LearningCsharp\obj\Debug\net9.0\Learning.sourcelink.json
+D:\Programming\CSharp\LearningCsharp\obj\Debug\net9.0\Learning.dll
+D:\Programming\CSharp\LearningCsharp\obj\Debug\net9.0\refint\Learning.dll
+D:\Programming\CSharp\LearningCsharp\obj\Debug\net9.0\Learning.pdb
+D:\Programming\CSharp\LearningCsharp\bin\Debug\net9.0\Learning.exe
+D:\Programming\CSharp\LearningCsharp\bin\Debug\net9.0\Learning.deps.json
+D:\Programming\CSharp\LearningCsharp\bin\Debug\net9.0\Learning.runtimeconfig.json
+D:\Programming\CSharp\LearningCsharp\bin\Debug\net9.0\Learning.dll
+D:\Programming\CSharp\LearningCsharp\bin\Debug\net9.0\Learning.pdb
+D:\Programming\CSharp\LearningCsharp\obj\Debug\net9.0\Learning.genruntimeconfig.cache
+D:\Programming\CSharp\LearningCsharp\obj\Debug\net9.0\ref\Learning.dll
