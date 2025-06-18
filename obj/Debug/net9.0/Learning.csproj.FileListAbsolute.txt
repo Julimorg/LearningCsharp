@@ -12,3 +12,4 @@ F:\Programming\File programming\Learning C#\Learning\obj\Debug\net9.0\refint\Lea
 F:\Programming\File programming\Learning C#\Learning\obj\Debug\net9.0\Learning.pdb
 F:\Programming\File programming\Learning C#\Learning\obj\Debug\net9.0\Learning.genruntimeconfig.cache
 F:\Programming\File programming\Learning C#\Learning\obj\Debug\net9.0\ref\Learning.dll
+F:\Programming\File programming\Learning C#\Learning\obj\Debug\net9.0\Learning.sourcelink.json

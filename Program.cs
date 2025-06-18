@@ -250,5 +250,32 @@ class HelloWorld
         Printer printer = new Printer("HP Laser");
         EmployeePrinter employeePrint = new EmployeePrinter("An");
         employeePrint.PrintDocument(printer);
+
+        Console.WriteLine("-------------- Lambda Expression -------------");
+        Func<int, int> doubleNum = x => x * 2;
+        int result = doubleNum(5);
+        System.Console.WriteLine(result);
+
+
+
+        Console.WriteLine("-------------- Query -------------");
+
+        //? Query
+        string[] names = { "Fong", "Chen", "John", "George", "Joe" };
+        var querySyntax = from name in names
+                          where name.Contains("e")
+                          select name;
+        System.Console.WriteLine(querySyntax);
+        var queryMethod = names.Where(n => n.Contains("o"));
+        System.Console.WriteLine(queryMethod);
+        foreach (var name in querySyntax)
+        {
+            System.Console.WriteLine(name);
+        }
+        System.Console.WriteLine("----");
+        foreach (var name in queryMethod)
+        {
+            System.Console.WriteLine(name);
+        }
     }
 }
