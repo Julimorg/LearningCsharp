@@ -252,10 +252,23 @@ class HelloWorld
         employeePrint.PrintDocument(printer);
 
         Console.WriteLine("-------------- Lambda Expression -------------");
-        Func<int, int> doubleNum = x => x * 2;
-        int result = doubleNum(5);
-        System.Console.WriteLine(result);
+        
+        Action<string> bigName;
+        bigName = (s) => Console.WriteLine(s);
+        bigName?.Invoke("My name is Fong");
 
+        Func<int, string> outputNum;
+
+        outputNum = s => "hello";
+
+        Console.WriteLine(outputNum?.Invoke(1));
+        
+
+
+        int[] array = { 1, 1, 24, 12, 5, 41, 2, 1, 431, 2, 1, 31, 2, 10 };
+
+        var evenNumber = array.Where(s => s % 2 == 0).ToArray();
+        System.Console.WriteLine("even number: " + string.Join(", ", evenNumber));
 
 
         Console.WriteLine("-------------- Query -------------");
